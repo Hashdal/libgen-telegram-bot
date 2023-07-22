@@ -23,7 +23,7 @@ def generate_message(result_list: list) -> str:
 
 
 
-bot = telebot.TeleBot("6387296465:AAHz2lwL05vNor7BYSbq5Ht9QGR_Gmyl8Aw")
+bot = telebot.TeleBot("")
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
